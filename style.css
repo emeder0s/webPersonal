@@ -36,6 +36,7 @@ li.nav-li-index {
 a.nav-li-a{
     text-decoration: none;
     color:green;
+    font-size: 22px;
 }
 
 a.nav-li-a-index{
@@ -48,8 +49,9 @@ a.nav-li-a-index{
     line-height: 2.5;
 }
 
-li.active{
-     text-decoration: underline;
+a.active{
+     color:rgb(0, 79, 0);
+     font-size: 26px;
 }
 
 #nav-index {
