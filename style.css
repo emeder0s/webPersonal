@@ -1,14 +1,88 @@
 header {
+    padding: 12px 0px;
+}
+
+header.no-index {
     float: right;
-    background-color: brown;
-    width: 70%; 
+    width: 70%;
+    padding: 12px 0px;
+}
+
+body{
+    font-family: "Copperplate", fantasy;
+    max-width: 95%;
+}
+
+h1#welcome{
+    color:green;
 }
 
 li.nav-li {
     list-style:none;
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
-nav#nav-index {
-    background-color: burlywood;
+li.nav-li-index {
+    list-style:none;
+    width: 100%;
+    border: 3px solid brown;
+    border-radius: 10px;
+    /* padding: 10px 30px; */
+    margin: 10px 0px;
+    height: 40px; 
+    text-align: center;
+}
+
+a.nav-li-a{
+    text-decoration: none;
+    color:green;
+}
+
+a.nav-li-a-index{
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    text-decoration: none;
+    color:black;
+    /* background-color: blue; */
+    line-height: 2.5;
+}
+
+li.active{
+     text-decoration: underline;
+}
+
+#nav-index {
+    /* background-color:blue; */
+}
+
+div.row{
+    width:100%;
+    text-align: center;
+}
+
+div.portfolio{
+    background-color:brown;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 30px;
+    /* float: left; */
+    display: inline-block;
+}
+
+div.biografia{
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px 0px; 
+}
+
+div.biografia2{
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px 0px; 
+    width: 50%;
+    font-family: "Courier New", Courier, monospace;
 }
