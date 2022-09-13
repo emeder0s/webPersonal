@@ -1,3 +1,14 @@
+header {
+    float: right;
+    background-color: brown;
+    width: 70%; 
+}
+
 li.nav-li {
     list-style:none;
+    margin: 15px 0px;
+}
+
+nav#nav-index {
+    background-color: burlywood;
 }
