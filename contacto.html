@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <title>Mi Web Personal</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="images/favicon32x32.png">
 </head>
 <body>
-    <header>
-        <h1 id="no-index">Contacto</h1>
+    <div id="left">
+    <header id="no-index">
+        <h1>CONTACTO</h1>
     </header>
-    <nav id="nav-index">
-    <div>
+    <nav id="nav-no-index">
         <ul id="nav-list">
             <li id="home" class= "nav-li"><a class="nav-li-a" href="/index.html">Home</a></li>
                 <li id="biografia" class= "nav-li"><a class="nav-li-a" href="/biografia.html">Biografía</a></li>
                 <li id="portfolio" class= "nav-li"><a class="nav-li-a" href="/portfolio.html">Portfolio</a></li>
                 <li id="contacto" class= "nav-li active"><a class="nav-li-a active" href="/contacto.html">Contacto</a></li>
             </ul>
+        </nav>
+    </div>
+    <div id="right">
+        <div class="recuadro">
+            <h3 id="title">¿QUIERES CONTARME ALGO?</h3>
+            <form action="envio.html">
+                <div class="form-row">
+                    <label id="name">Nombre</label>
+                    <input name="name" required></input<input>
+                </div>
+                <div class="form-row">
+                    <label id="email">Email</label>
+                    <input name="email" required></input>
+                </div>
+                <div class="form-row">
+                    <label id="text">¡Cuéntame!</label>
+                    <textarea name="cuentame" required></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" id="submit">Enviar</button>
+                </div>
+            </form>
         </div>
-    </nav>
-    <section></section>
-    <aside></aside> 
+    </div>
     <footer>
-      <div></div>
+        <div>
+            <hr/>
+            <p>Copyright &#169 2022 - Diseño Web realizado por  Elena Mederos</p> 
+        </div>
     </footer>
 </body>
 
