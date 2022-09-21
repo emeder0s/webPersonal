@@ -11,7 +11,6 @@ body{
     font-family: "Copperplate", fantasy;
     max-width: 100%;
     background-color: #fffaa3;
-    /* background-color: #fdfac9; */
 }
 
 div.center-div{
@@ -40,7 +39,6 @@ div.recuadro {
     padding: 10px 30px;
     margin: 0 auto; 
     width: 50%;
-    /* font-family: "Courier New", Courier, monospace; */
 }
 
 li.nav-li {
@@ -82,10 +80,15 @@ div.row{
 }
 
 footer {
-    margin: 60px 0px 0px 0px;
-    /* background-color:green; */
-    display: block;
     bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer#footer-biografia {
+    bottom: 0;
+    width: 100%;
+    position: relative;
 }
 
 footer p{ 
@@ -173,9 +176,7 @@ div.biografia {
     border-radius: 10px;
     padding: 10px 30px;
     margin: 5px auto; 
-    
     width: 50%;
-    /* font-family: "Courier New", Courier, monospace;*/
 } 
 
 div.biografia a{
@@ -202,7 +203,6 @@ div#retrato {
 }
 
 div#retrato:hover{
-    /* transform: rotate(90deg); */
     transform:scaleX(-1);
 }
 
