@@ -26,19 +26,70 @@ div.width-100{
 div#left{
     display:inline-block;
     float: left;
+    position:sticky;
+    top:0px;
 }
 
 div#right{
-    padding-top:67px;
     font-family: 'Advent Pro';font-size: 22px;
+}
+
+h1#page-title{
+    color:green;
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+}
+
+h1#page-title:hover {
+    color:brown;
+}
+
+h3.page-title{
+    color:brown;
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+}
+
+h3.page-title:hover {
+    color:green;
 }
 
 div.recuadro {
     border: 3px solid brown;
     border-radius: 10px;
     padding: 10px 30px;
-    margin: 0 auto; 
+    margin: 20px auto; 
     width: 50%;
+}
+
+div.border-none{
+    border:none;
+}
+
+div.recuadro strong{
+    animation: fadein 0s;
+}
+
+div.recuadro {
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+div.recuadro a{
+    color:brown;
+    text-decoration:none;
+}
+
+div.recuadro a:hover{
+    color:green;
+}
+
+div.recuadro p{
+    margin: 0;
 }
 
 li.nav-li {
@@ -85,7 +136,7 @@ footer {
     position: fixed;
 }
 
-footer#footer-biografia {
+footer#relative-footer {
     bottom: 0;
     width: 100%;
     position: relative;
@@ -104,18 +155,13 @@ hr {
     color: black;
 }
 
+.no-margin{
+    margin:0px;
+}
+
 /*------------INDEX-----------------*/ 
 #nav-index {
     padding: 0px 50px;
-}
-
-#welcome{
-    color:green;
-    text-align: center;
-}
-
-#welcome:hover {
-    color:brown;
 }
 
 div#header-image {
@@ -149,8 +195,8 @@ div.portfolio {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin: 30px;
-    display: inline-block;
+    margin: 10px auto; 
+
 }
 
 div.portfolio:hover {
@@ -169,41 +215,21 @@ div#sdc {
     background-image: url("/images/sdcTitle.png");   
 }
 
+div.text-center{
+    text-align: center;
+}
+
+ul#aptitudes{
+    list-style: none;
+}
+
+ul#aptitudes li{
+    display: inline;
+    margin: 0px 10px;
+    font-size: xx-large;
+}
+
 /*------------BIOGRAFIA-----------------*/ 
-
-div.biografia {
-    border: 3px solid brown;
-    border-radius: 10px;
-    padding: 10px 30px;
-    margin: 5px auto; 
-    width: 50%;
-}
-
-div.biografia strong{
-    animation: fadein 0s;
-}
-
-div.biografia {
-    animation: fadein 5s;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-div.biografia a{
-    color:brown;
-    text-decoration:none;
-}
-
-div.biografia a:hover{
-    color:green;
-}
-
-div.biografia p{
-    margin: 0;
-}
 
 div#retrato {
     background-repeat: no-repeat;
