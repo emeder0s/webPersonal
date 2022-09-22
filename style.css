@@ -18,11 +18,6 @@ div.center-div{
     justify-content: center;
 }
 
-div.width-100{
-    width: 100%;
-    background-color: rgb(226, 43, 147);
-}
-
 div#left{
     display:inline-block;
     float: left;
